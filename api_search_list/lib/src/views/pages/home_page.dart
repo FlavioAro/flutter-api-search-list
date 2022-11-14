@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                         });
                       },
                     )
-                  : MyListTile(character: _charactersDisplay[index - 1]);
+                  : MyList(character: _charactersDisplay[index - 1]);
             } else {
               return const MyLoading();
             }

@@ -13,6 +13,9 @@ https://pub.dev/packages/http
 ##### Version used in code:
 0.13.5
 
+#### API link used in code:
+https://www.breakingbadapi.com/api/characters
+
 ## Example
 <img src="dist/assets/example.gif?raw=true" width="400px">
 

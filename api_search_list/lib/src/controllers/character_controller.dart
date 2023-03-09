@@ -9,7 +9,7 @@ import 'package:http/http.dart' as http;
 // Model
 import '../models/character_model.dart';
 
-const String url = "https://www.breakingbadapi.com/api/characters";
+const String url = "https://6345b3cf745bd0dbd36f6dd5.mockapi.io/person";
 
 List<Character> parseCharacter(String responseBody) {
   var list = json.decode(responseBody) as List<dynamic>;

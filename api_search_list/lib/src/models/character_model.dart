@@ -1,14 +1,14 @@
 class Character {
-  int char_id = 0;
+  int charId = 0;
   String name = "";
   String img = "";
   String nickname = "";
   String portrayed = "";
 
-  Character(this.char_id, this.name, this.img, this.nickname, this.portrayed);
+  Character(this.charId, this.name, this.img, this.nickname, this.portrayed);
 
   Character.fromJson(Map<String, dynamic> json) {
-    char_id = json['char_id'];
+    charId = json['char_id'];
     name = json['name'];
     img = json['img'];
     nickname = json['nickname'];
@@ -17,7 +17,7 @@ class Character {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
-    data['char_id'] = char_id;
+    data['char_id'] = charId;
     data['name'] = name;
     data['img'] = img;
     data['nickname'] = nickname;

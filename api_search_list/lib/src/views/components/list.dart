@@ -18,7 +18,7 @@ class MyList extends StatelessWidget {
         children: [
           ListTile(
             leading: Hero(
-              tag: character.char_id,
+              tag: character.charId,
               child: CircleAvatar(
                 backgroundImage: NetworkImage(character.img),
               ),

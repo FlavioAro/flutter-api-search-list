@@ -14,7 +14,7 @@ https://pub.dev/packages/http
 0.13.5
 
 #### API link used in code:
-https://www.breakingbadapi.com/api/characters
+https://6345b3cf745bd0dbd36f6dd5.mockapi.io/person
 
 ## Example
 <img src="dist/assets/example.gif?raw=true" width="400px">
